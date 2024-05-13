@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: black;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.attendance-table {
+    flex: 1;
+    padding: 50px 0;
+}
+
+.attendance-table h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    flex-shrink: 0;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+}
+
+.box {
+    width: calc(33.33% - 20px); /* Adjust box width to fit three boxes per row with 20px margin between them */
+    height: 200px; /* Increase box height to accommodate content */
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(24, 149, 13);
+    line-height: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #00b303;
+}
+a{
+    text-decoration: none;
+     color: white;
+}
+.green-highlight {
+    background-color: #8bc34a; /* Green */
+}
+
+.yellow-highlight {
+    background-color: #ffeb3b; /* Yellow */
+}
+
+.red-highlight {
+    background-color: #ff5722; /* Red */
+}
+.box1 h2{
+    float: left;
+}
+.box1 button{
+    float: right;
+}
+h6{
+    text-align: center;
+    color: red;
+}
+h6{
+    text-align: center;
+    color: green;
+}

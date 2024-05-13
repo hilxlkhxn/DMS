@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.timetable-container {
+    border: 2px solid #ccc; /* Border around the timetable */
+    padding: 10px;
+}
+
+.timetable-image {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
